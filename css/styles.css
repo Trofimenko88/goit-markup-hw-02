@@ -25,7 +25,6 @@ ul {
 /*logo*/
 .header-prelogo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -35,7 +34,6 @@ ul {
 }
 .logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -107,7 +105,7 @@ ul {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-text-color);
 }
 .work-title {
   font-weight: 700;
@@ -132,7 +130,7 @@ ul {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 /*Footer*/
@@ -143,7 +141,6 @@ ul {
 
 .footer-prelogo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -153,7 +150,6 @@ ul {
 }
 .footer-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -199,12 +195,11 @@ h3 {
 }
 p {
   font-family: 'Roboto';
-  font-style: normal;
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-text-color);
 }
 /*Основной цвет тексте #212121*/
 /*Вторичный цвет текста #757575*/
