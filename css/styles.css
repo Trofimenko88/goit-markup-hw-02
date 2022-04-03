@@ -64,7 +64,7 @@ ul {
 .hero {
   background-color: #2f303a;
 }
-.hero-title {
+h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -85,14 +85,14 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--primary-text-color);
+  color: var(--complementary-text-color);
+  background-color: #2196F3;
 }
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--complementary-text-color);
-  background-color: var(--accent-color);
+  background-color: #188CE8;
 }
-
 .text-heading {
   font-weight: 700;
   font-size: 14px;
