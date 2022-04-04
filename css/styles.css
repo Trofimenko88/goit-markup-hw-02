@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Open Sans';
+  font-family: 'Roboto', 'sans-serif';
 }
 ul {
   list-style: none;
@@ -40,14 +40,14 @@ ul {
   color: #000000;
 }
 /*navigation menu*/
-.header-item {
+a.header-link.link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.current {
+a.header-link.current.link {
   color: var(--accent-color);
 }
 /*navigation contacts*/
@@ -57,14 +57,14 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 /*hero*/
 .hero {
   background-color: #2f303a;
 }
-h1 {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -86,7 +86,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--complementary-text-color);
-  background-color: #2196F3;
+  background-color: var(--accent-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -163,7 +163,7 @@ h1 {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .control .control-btn {
   background-color: #f5f4fa;
@@ -188,7 +188,7 @@ h1 {
 }
 
 /*Разделы работ*/
-h3 {
+.about-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -196,8 +196,7 @@ h3 {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
-p {
-  font-family: 'Roboto';
+.about-pre-title {
   font-size: 16px;
   line-height: 1.87;
   /* identical to box height, or 188% */
