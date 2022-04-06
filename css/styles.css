@@ -16,8 +16,12 @@ ul {
   text-decoration: none;
 }
 /*hover elements*/
-.link:hover,
-.link:focus {
+a.header-link.link:hover,
+a.header-link.link:focus,
+a.header-mail.link:hover,
+a.header-mail.link:focus,
+a.header-tel.link:hover,
+a.header-tel.link:focus {
   color: var(--accent-color);
 }
 
